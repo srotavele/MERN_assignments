@@ -34,5 +34,8 @@ const pokémon = Object.freeze([
     // const fireType = pokémon.filter( p => p.types == "fire");
     // console.log(fireType)
 
-    const manyType = pokémon.filter( p => p.types );
-    console.log(manyType)
+    // const manyType = pokémon.filter( p => p.types );
+    // console.log(manyType)
+
+    const justNames = pokémon.filter(p => p.name );
+    console.log(justNames)
