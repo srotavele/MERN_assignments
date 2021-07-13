@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { useState } from "react";
 import SignUp from './components/SignUp';
-import Results from './components/Results';
+// import Results from './components/Results';
 
 function App() {
   const [stuff, moreStuff] = useState({
@@ -14,9 +14,9 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div className="App" >
       <SignUp inputs={stuff} setInputs={moreStuff}/>
-      <Results data={stuff}/>
+      {/* <Results data={stuff}/> */}
     </div>
   );
 }
