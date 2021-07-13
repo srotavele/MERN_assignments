@@ -50,7 +50,7 @@ const UserForm = props => {
     }
     return (
         <form onSubmit = {handleSubmit}>
-            <h3>Hello</h3>
+            <h3>Hello There</h3>
 	        <div>
                 <label>First Name: </label> 
                 <input type="text" name="firstName" onChange={ handleChange } />
