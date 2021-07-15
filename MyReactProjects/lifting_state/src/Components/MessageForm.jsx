@@ -6,7 +6,8 @@ const MessageForm = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // what should we do with the message?
+        
+        }
     };
 
     return (
